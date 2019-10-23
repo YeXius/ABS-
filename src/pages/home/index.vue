@@ -2,7 +2,9 @@
     <div id="item">
         <headerCom :title="title"></headerCom>
         <div class='content'>
-            首页内容
+           <div class="tou">
+             
+           </div>
         </div>
         <footerCom></footerCom>
     </div>
