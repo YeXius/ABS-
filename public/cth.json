@@ -1,0 +1,11 @@
+{
+    "car":[
+        {"img":"./imgs/list_imgs/01.png","name":"Carina轻温暖连帽鹅绒服-...","type":"尺寸：M 颜色 ：黑色","price":199,"num":1},
+        {"img":"./imgs/list_imgs/01.png","name":"Carina轻温暖连帽鹅绒服-...","type":"尺寸：L 颜色 ：黑色","price":299,"num":1},
+        {"img":"./imgs/list_imgs/01.png","name":"Carina轻温暖连帽鹅绒服-...","type":"尺寸：XL 颜色 ：黑色","price":399,"num":1}
+
+
+    ]
+        
+    
+}

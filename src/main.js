@@ -3,7 +3,7 @@ import App from './App.vue'
 // 引入全局样式 rem
 import '../public/css/reset.css'
 import './untils/rem'
-
+import createPersistedState from 'vuex-persistedstate'
 import Axios from 'axios'
 Vue.prototype.$http=Axios; //引入axios
 
