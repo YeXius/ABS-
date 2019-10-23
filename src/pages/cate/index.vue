@@ -13,7 +13,6 @@
                   <div class="rt">
                       <router-view></router-view>
                   </div>
-                  77777777777777777777777777
 
               </div>
         <footerCom></footerCom>
