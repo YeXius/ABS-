@@ -3,7 +3,7 @@
         <ul>
             <router-link tag='li' v-for="(item,index) in arr" :key="index" 
             :to="item.url">
-                  <svg class="icon" aria-hidden="true">
+                  <svg class="icon1" aria-hidden="true">
                     <use :xlink:href="`#icon-${item.imgs}`"></use>
                   </svg>
                  <p>
@@ -36,6 +36,8 @@ export default {
         height: 1.16rem;
         border-top: 1px solid #E0E0E0;
         background: #F0F4F3;
+        position: fixed;
+        bottom: 0rem;
     }
     .footer ul{
         display:flex;
@@ -43,19 +45,23 @@ export default {
         height: 100%;
     }
     .footer ul>li{
-        flex:1;
-        /* border: 1px solid #000; */
-        display:flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        box-sizing: border-box;
-        padding:.16rem 0;
+        width: 25%;
+        height: 100%;
     }
-    .footer ul>li .icon{
-        font-size: .42rem;
+    .footer ul li p{
+        display: block;
+        font-size: 0.26rem;
+        padding-top: 0.2rem;
+        text-align: center;
+    }
+    .footer ul>li .icon1{
+        width: 0.4rem;
+        height: 0.4rem;
+        display: block;
+        margin: 0rem auto;
+        padding-top: 0.2rem;
     }
     .footer .active{
-        color:red;
+        color:red !important;
     }
 </style>

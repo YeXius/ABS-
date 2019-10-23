@@ -3,6 +3,7 @@
         <headerCom :title="title"></headerCom>
         <div class="content">
             购物车内容
+            
         </div>
         <footerCom></footerCom>
     </div>
@@ -31,5 +32,6 @@ export default {
 </script>
 
 <style>
+
 
 </style>

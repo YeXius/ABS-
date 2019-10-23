@@ -29,7 +29,7 @@ export default {
       // console.log(this.$http)
       this.$http.get('http://www.abs.com/home')
         .then(res=>{
-          console.log(res)
+          // console.log(res)
           // this.arr=res.data.lunbo
         })
     }

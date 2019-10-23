@@ -8,6 +8,8 @@ const cateCom=()=>import('../pages/cate')
 const cartCom=()=>import('../pages/cart')
 const myCom=()=>import('../pages/my')
 
+import Ren from '../../src/pages/home/Ren'
+import Xin from '../../src/pages/home/Xin'
 //配置路由
 const routes=[
     {path:'/',redirect:"/home"},
@@ -15,6 +17,16 @@ const routes=[
     {path:'/cate',component:cateCom,meta:{title:"分类"}},
     {path:'/cart',component:cartCom,meta:{title:"购物车"}},
     {path:'/my',component:myCom,meta:{title:"我"}},
+    {
+        path:'/ren',
+        name:"Ren",
+        component:Ren
+    },
+    {
+        path:'/xin',
+        name:"Xin",
+        component:Xin
+    }
 ]
 
 //实例化
