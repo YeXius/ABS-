@@ -3,7 +3,6 @@
         <headerCom :title="title"></headerCom>
         <div id="box">
           <div id="tou">
-            1111111111
             <img src="../../../public/imgs/images1/swiper/shou_03.png" alt="">
             <input type="text" class="input" placeholder="搜搜更多家具好物">
             <svg class="icon" aria-hidden="true">
