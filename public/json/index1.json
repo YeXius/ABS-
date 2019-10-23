@@ -1,0 +1,50 @@
+{
+    
+   "tuijian":[
+       {"img":"../imgs/images/a1.png","txt":"旅行箱","id":9},
+       {"img":"../imgs/images/a2.png","txt":"旅行箱","id":10},
+       {"img":"../imgs/images/a3.png","txt":"旅行箱","id":11},
+       {"img1":"../imgs/images/a4.png","txt1":"旅行箱","id":12},
+       {"img1":"../imgs/images/a5.png","txt1":"旅行箱","id":13},
+       {"img1":"../imgs/images/a12.png","txt1":"旅行箱","id":13},
+       {"img2":"../imgs/images/a7.png","txt2":"床品套件","id":15},
+       {"img2":"../imgs/images/a11.png","txt2":"床品套件","id":15},
+       {"img2":"../imgs/images/a8.png","txt2":"枕芯","id":16}
+   ],
+   "chuxing":[
+       
+       {"img1":"../imgs/images/a6.png","txt1":"旅行箱","id":14}
+   ],
+   "shuimian":[
+       
+       {"img2":"../imgs/images/a9.png","txt2":"毯子靠垫","id":17}
+   ],
+   "chuju":[
+       {"img3":"../imgs/images/a9.png","txt3":"锅具","id":18},
+       {"img3":"../imgs/images/a10.png","txt3":"锅具","id":19}
+   ],
+   "meihu":[
+       {"img4":"../imgs/images/a10.png","txt4":"美容电器","id":20},
+       {"img4":"../imgs/images/a11.png","txt4":"美容电器","id":21},
+       {"img4":"../imgs/images/a12.png","txt4":"美容电器","id":22}
+   ],
+   "xiuxian":[
+       {"img5":"../imgs/images/a13.png","txt5":"健身训练","id":23},
+       {"img5":"../imgs/images/a14.png","txt5":"健身训练","id":24}
+   ],
+   "ertong":[
+       {"img6":"../imgs/images/a15.png","txt6":"儿童床品","id":25},
+       {"img6":"../imgs/images/a16.png","txt6":"儿童床品","id":26},
+       {"img6":"../imgs/images/a17.png","txt6":"儿童床品","id":27}
+   ],
+   "jiawu":[
+       {"img7":"../imgs/images/a17.png","txt7":"家务电器","id":28},
+       {"img7":"../imgs/images/a18.png","txt7":"家务电器","id":29},
+       {"img7":"../imgs/images/a19.png","txt7":"家务电器","id":30}
+   ],
+   "kongjian":[
+       {"img8":"../imgs/images/a19.png","txt8":"沙发椅子","id":31},
+       {"img8":"../imgs/images/a20.png","txt8":"沙发椅子","id":32},
+       {"img8":"../imgs/images/a21.png","txt8":"沙发椅子","id":33}
+   ]
+}

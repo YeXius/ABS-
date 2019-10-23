@@ -5,6 +5,8 @@ Vue.use(VueRouter)
 //加载组件
 const homeCom=()=>import('../pages/home')
 const cateCom=()=>import('../pages/cate')
+const tuijianCom=()=>import('../pages/cate/tuijian.vue')
+const liebiaoCom=()=>import('../pages/cate/liebiao.vue')
 const cartCom=()=>import('../pages/cart')
 const myCom=()=>import('../pages/my')
 
@@ -12,7 +14,21 @@ const myCom=()=>import('../pages/my')
 const routes=[
     {path:'/',redirect:"/home"},
     {path:'/home',component:homeCom,meta:{title:"ABS家居"}},
-    {path:'/cate',component:cateCom,meta:{title:"分类"}},
+    {
+        path:'/liebiao',
+        component:liebiaoCom
+    },
+    {path:'/cate',component:cateCom,meta:{title:"分类"},
+   
+        children:[
+            {
+                path:'',
+                component:tuijianCom,
+                   
+            },
+           
+        ]
+    },
     {path:'/cart',component:cartCom,meta:{title:"购物车"}},
     {path:'/my',component:myCom,meta:{title:"我"}},
 ]

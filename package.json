@@ -38,8 +38,8 @@
       "eslint:recommended"
     ],
     "rules": {
-      "no-console":"off",
-      "no-unused-vars":"off"
+      "no-console": "off",
+      "no-unused-vars": "off"
     },
     "parserOptions": {
       "parser": "babel-eslint"
@@ -49,6 +49,10 @@
     "plugins": {
       "autoprefixer": {}
     }
+  },
+  "rules": {
+    "no-console":"off",
+    "no-unused-vars":"off"
   },
   "browserslist": [
     "> 1%",
