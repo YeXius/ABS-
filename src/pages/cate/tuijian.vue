@@ -8,7 +8,7 @@
                 
             <div v-for="(item,index) in foot" :key="index" class="right-a1">
                     <router-link to="/liebiao"> <p><img :src="item.img" alt=""></p> </router-link>
-                  <p> {{ item.txt }}</p> 
+                  <p class="bb1"> {{ item.txt }}</p> 
             </div>
         </div>
 
@@ -19,7 +19,7 @@
                 
             <div v-for="(item,index) in foot" :key="index" class="right-a1">
                    <router-link to="/liebiao">  <p><img :src="item.img1" alt=""></p> </router-link>
-                  <p> {{ item.txt1 }}</p> 
+                  <p class="bb1"> {{ item.txt1 }}</p> 
             </div>
         </div>
 
@@ -30,7 +30,7 @@
                 
             <div v-for="(item,index) in foot" :key="index" class="right-a1">
                  <router-link to="/liebiao">     <p><img :src="item.img2" alt=""></p> </router-link>
-                  <p> {{ item.txt2 }}</p> 
+                  <p class="bb1"> {{ item.txt2 }}</p> 
             </div>
         </div>
 
@@ -58,7 +58,10 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+.bb1{
+    color: gray;
+}
 .tou{
     font-size: .4rem;
     margin-left: .3rem;

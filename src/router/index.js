@@ -7,6 +7,7 @@ const homeCom=()=>import('../pages/home')
 const cateCom=()=>import('../pages/cate')
 const tuijianCom=()=>import('../pages/cate/tuijian.vue')
 const liebiaoCom=()=>import('../pages/cate/liebiao.vue')
+const xiangqingCom=()=>import('../pages/cate/xiangqing.vue')
 const cartCom=()=>import('../pages/cart')
 const myCom=()=>import('../pages/my')
 
@@ -16,7 +17,12 @@ const routes=[
     {path:'/home',component:homeCom,meta:{title:"ABS家居"}},
     {
         path:'/liebiao',
-        component:liebiaoCom
+        component:liebiaoCom,
+       
+    },
+    {
+        path:'/xiangqing',
+        component:xiangqingCom
     },
     {path:'/cate',component:cateCom,meta:{title:"分类"},
    

@@ -5,7 +5,7 @@ let listData=Mock.mock({
           "img":"./imgs/list_imgs/01.png",
           "color|2":["菊粉色","蓝灰色","紫色","粉色","浅蓝色"]
         },
-        {"id":1002,"title":"Bella水晶绒系列柔暖家居拖鞋","price":29.9,
+        {"id":1002,"title":"Bella水晶绒系列柔暖家居拖鞋居拖鞋","price":29.9,
           "img":"./imgs/list_imgs/02.png",
           "color|2":["菊粉色","蓝灰色","紫色","粉色","浅蓝色"]
         },
@@ -29,7 +29,7 @@ let listData=Mock.mock({
           "img":"./imgs/list_imgs/07.png",
           "color|2":["菊粉色","蓝灰色","紫色","粉色","浅蓝色"]
         },
-        {"id":1008,"title":"Fruits果趣系列马克杯-樱桃(570ml)","price":19.9,
+        {"id":1008,"title":"Fruits果趣系列马克杯-樱桃(570ml),","price":19.9,
           "img":"./imgs/list_imgs/08.png",
           "color|2":["菊粉色","蓝灰色","紫色","粉色","浅蓝色"]
         },
@@ -37,15 +37,15 @@ let listData=Mock.mock({
           "img":"./imgs/list_imgs/09.png",
           "color|2":["菊粉色","蓝灰色","紫色","粉色","浅蓝色"]
         },
-        {"id":1010,"title":"Harper毛绒系列柔软家居拖鞋","price":19.9,
+        {"id":1010,"title":"Harper毛绒系列柔软家居拖鞋居拖鞋","price":19.9,
           "img":"./imgs/list_imgs/10.png",
           "color|2":["菊粉色","蓝灰色","紫色","粉色","浅蓝色"]
         },
-        {"id":1011,"title":"B.duck小黄鸭4.5芝士碗","price":9.9,
+        {"id":1011,"title":"B.duck,B.duck小黄鸭4.5芝士碗","price":9.9,
           "img":"./imgs/list_imgs/11.png",
           "color|2":["菊粉色","蓝灰色","紫色","粉色","浅蓝色"]
         },
-        {"id":1012,"title":"Erma轻便透气浴室拖鞋","price":19.9,
+        {"id":1012,"title":"Erma轻便Erma轻便透气浴室拖鞋","price":19.9,
           "img":"./imgs/list_imgs/12.png",
           "color|2":["菊粉色","蓝灰色","紫色","粉色","浅蓝色"]
         },
@@ -65,7 +65,7 @@ let listData=Mock.mock({
           "img":"./imgs/list_imgs/16.png",
           "color|2":["菊粉色","蓝灰色","紫色","粉色","浅蓝色"]
         },
-        {"id":1017,"title":"Lovey萌宠毛绒家居拖鞋","price":39.9,
+        {"id":1017,"title":"Lovey萌宠毛绒萌宠毛绒家居拖鞋","price":39.9,
           "img":"./imgs/list_imgs/17.png",
           "color|2":["菊粉色","蓝灰色","紫色","粉色","浅蓝色"]
         },
